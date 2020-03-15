@@ -1,5 +1,5 @@
 # MERA
-Matlab code implementing the multiscale entanglement renormalization ansatz (MERA) in (1+1) dimensions. See [here](https://arxiv.org/abs/1109.5334) for algorithm details. As written, the algorithm finds the ground state energy per site of the [tranverse field Ising model](https://en.wikipedia.org/wiki/Transverse-field_Ising_model). It also computes the entanglement entropy and magnetization. 
+Matlab code implementing the multiscale entanglement renormalization ansatz (MERA) in (1+1) and (2+1) dimensions. See [here](https://arxiv.org/abs/1109.5334) for algorithm details. As written, the algorithm finds the ground state energy per site of the [tranverse field Ising model](https://en.wikipedia.org/wiki/Transverse-field_Ising_model). It also computes the entanglement entropy and magnetization. 
 
 ## Usage
 The function `MERA(g,chi,totSteps,stepSize,SIMERA,start)` runs the algorithm. The parameters are as follows:
